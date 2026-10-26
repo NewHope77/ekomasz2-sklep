@@ -41,9 +41,6 @@ produkt/jobobike-romer-pro.html
 produkt/jobobike-vortex.html
 produkt/storm-e-taurus-junior-26-1-0.html
 produkt/storm-e-taurus-junior-24-1-0.html
-dostawa-i-platnosci.html
-zwroty.html
 reklamacje.html
-regulamin.html
 regulamin-serwisu.html
 polityka-prywatnosci.html
