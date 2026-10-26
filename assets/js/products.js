@@ -1,155 +1,263 @@
 window.PRODUCTS = {
- "city-comfort-28": {
-  "name": "City Comfort 28\"",
-  "price": 6999,
-  "img": "assets/img/products/city-comfort-28.jpg",
-  "url": "produkt/city-comfort-28.html",
-  "cat": "rowery-miejskie",
-  "catName": "Rowery miejskie",
-  "bike": true
- },
- "city-cargo": {
-  "name": "City Cargo Family",
-  "price": 11499,
-  "img": "assets/img/products/city-cargo.jpg",
-  "url": "produkt/city-cargo.html",
-  "cat": "rowery-miejskie",
-  "catName": "Rowery miejskie",
-  "bike": true
- },
- "trekking-tour-625": {
-  "name": "Trekking Tour 625",
-  "price": 8499,
-  "img": "assets/img/products/trekking-tour-625.jpg",
-  "url": "produkt/trekking-tour-625.html",
-  "cat": "rowery-trekkingowe",
-  "catName": "Rowery trekkingowe",
-  "bike": true
- },
- "trekking-pro-750": {
-  "name": "Trekking Pro 750",
-  "price": 10299,
-  "img": "assets/img/products/trekking-pro-750.jpg",
-  "url": "produkt/trekking-pro-750.html",
-  "cat": "rowery-trekkingowe",
-  "catName": "Rowery trekkingowe",
-  "bike": true
- },
- "fold-20-compact": {
-  "name": "Fold 20 Compact",
+ "barton-e-smart-2-0": {
+  "name": "Barton E Smart 2.0",
   "price": 4999,
-  "img": "assets/img/products/fold-20-compact.jpg",
-  "url": "produkt/fold-20-compact.html",
-  "cat": "rowery-skladane",
-  "catName": "Rowery składane",
+  "img": "assets/img/products/barton-e-smart-2-0.jpg",
+  "url": "produkt/barton-e-smart-2-0.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
   "bike": true
  },
- "fold-20-plus": {
-  "name": "Fold 20 Plus",
-  "price": 5799,
-  "img": "assets/img/products/fold-20-plus.jpg",
-  "url": "produkt/fold-20-plus.html",
-  "cat": "rowery-skladane",
-  "catName": "Rowery składane",
+ "barton-e-smart-2-0-men": {
+  "name": "Barton E Smart 2.0 MEN",
+  "price": 4999,
+  "img": "assets/img/products/barton-e-smart-2-0-men.jpg",
+  "url": "produkt/barton-e-smart-2-0-men.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
   "bike": true
  },
- "fat-26-sand": {
-  "name": "Fat 26 Sand",
-  "price": 9499,
-  "img": "assets/img/products/fat-26-sand.jpg",
-  "url": "produkt/fat-26-sand.html",
-  "cat": "fatbike",
-  "catName": "Fatbike",
+ "storm-e-diamond-pro-28-2-0-ms": {
+  "name": "Storm E-Diamond Pro 28 2.0 MS",
+  "price": 5999,
+  "img": "assets/img/products/storm-e-diamond-pro-28-2-0-ms.jpg",
+  "url": "produkt/storm-e-diamond-pro-28-2-0-ms.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
   "bike": true
  },
- "fat-26-trail": {
-  "name": "Fat 26 Trail",
-  "price": 10999,
-  "img": "assets/img/products/fat-26-trail.jpg",
-  "url": "produkt/fat-26-trail.html",
-  "cat": "fatbike",
-  "catName": "Fatbike",
+ "storm-e-diamond-pro-28-2-0-ms-vbr": {
+  "name": "Storm E-Diamond Pro 28 2.0 MS V-Brake",
+  "price": 5999,
+  "img": "assets/img/products/storm-e-diamond-pro-28-2-0-ms-vbr.jpg",
+  "url": "produkt/storm-e-diamond-pro-28-2-0-ms-vbr.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
   "bike": true
  },
- "mtb-hard-29": {
-  "name": "MTB Hard 29",
-  "price": 9999,
-  "img": "assets/img/products/mtb-hard-29.jpg",
-  "url": "produkt/mtb-hard-29.html",
+ "northtec-suncity-h400": {
+  "name": "Northtec Suncity H400",
+  "price": 6799,
+  "img": "assets/img/products/northtec-suncity-h400.jpg",
+  "url": "produkt/northtec-suncity-h400.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "storm-e-diamond-pro-28-4-0-ms": {
+  "name": "Storm E-Diamond Pro 28 4.0 MS",
+  "price": 7599,
+  "img": "assets/img/products/storm-e-diamond-pro-28-4-0-ms.jpg",
+  "url": "produkt/storm-e-diamond-pro-28-4-0-ms.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "storm-e-diamond-pro-28-3-0-ms": {
+  "name": "Storm E-Diamond Pro 28 3.0 MS",
+  "price": 7599,
+  "img": "assets/img/products/storm-e-diamond-pro-28-3-0-ms.jpg",
+  "url": "produkt/storm-e-diamond-pro-28-3-0-ms.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "maxbike-civita-28": {
+  "name": "Maxbike Civita 28",
+  "price": null,
+  "img": "assets/img/products/maxbike-civita-28.jpg",
+  "url": "produkt/maxbike-civita-28.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "maxbike-strada": {
+  "name": "Maxbike Strada",
+  "price": null,
+  "img": "assets/img/products/maxbike-strada.jpg",
+  "url": "produkt/maxbike-strada.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "maxbike-urbea-28": {
+  "name": "Maxbike Urbea 28",
+  "price": null,
+  "img": "assets/img/products/maxbike-urbea-28.jpg",
+  "url": "produkt/maxbike-urbea-28.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "northtec-bergon-h400": {
+  "name": "Northtec Bergon H400",
+  "price": 6799,
+  "img": "assets/img/products/northtec-bergon-h400.jpg",
+  "url": "produkt/northtec-bergon-h400.html",
+  "cat": "rowery-trekkingowe",
+  "catName": "Rowery trekkingowe",
+  "bike": true
+ },
+ "northtec-boudicca-m210": {
+  "name": "Northtec Boudicca M210",
+  "price": 7799,
+  "img": "assets/img/products/northtec-boudicca-m210.jpg",
+  "url": "produkt/northtec-boudicca-m210.html",
+  "cat": "rowery-trekkingowe",
+  "catName": "Rowery trekkingowe",
+  "bike": true
+ },
+ "northtec-suncross-m410": {
+  "name": "Northtec Suncross M410",
+  "price": 8899,
+  "img": "assets/img/products/northtec-suncross-m410.jpg",
+  "url": "produkt/northtec-suncross-m410.html",
+  "cat": "rowery-suv",
+  "catName": "Rowery SUV",
+  "bike": true
+ },
+ "storm-e-diamond-pro-28-8-0-ms": {
+  "name": "Storm E-Diamond Pro 28 8.0 MS",
+  "price": 12000,
+  "img": "assets/img/products/storm-e-diamond-pro-28-8-0-ms.jpg",
+  "url": "produkt/storm-e-diamond-pro-28-8-0-ms.html",
+  "cat": "rowery-suv",
+  "catName": "Rowery SUV",
+  "bike": true
+ },
+ "maxbike-saga": {
+  "name": "Maxbike Saga",
+  "price": null,
+  "img": "assets/img/products/maxbike-saga.jpg",
+  "url": "produkt/maxbike-saga.html",
+  "cat": "rowery-suv",
+  "catName": "Rowery SUV",
+  "bike": true
+ },
+ "barton-terrain-26": {
+  "name": "Barton Terrain 26",
+  "price": 5499,
+  "img": "assets/img/products/barton-terrain-26.jpg",
+  "url": "produkt/barton-terrain-26.html",
   "cat": "rowery-mtb",
   "catName": "Rowery MTB",
   "bike": true
  },
- "mtb-hard-275": {
-  "name": "MTB Hard 27.5+",
-  "price": 8799,
-  "img": "assets/img/products/mtb-hard-275.jpg",
-  "url": "produkt/mtb-hard-275.html",
+ "barton-terrain-29": {
+  "name": "Barton Terrain 29",
+  "price": 5999,
+  "img": "assets/img/products/barton-terrain-29.jpg",
+  "url": "produkt/barton-terrain-29.html",
   "cat": "rowery-mtb",
   "catName": "Rowery MTB",
   "bike": true
  },
- "full-enduro-29": {
-  "name": "Full Enduro 29",
-  "price": 14999,
-  "img": "assets/img/products/full-enduro-29.jpg",
-  "url": "produkt/full-enduro-29.html",
+ "barton-terrain-flow": {
+  "name": "Barton Terrain Flow",
+  "price": 7999,
+  "img": "assets/img/products/barton-terrain-flow.jpg",
+  "url": "produkt/barton-terrain-flow.html",
+  "cat": "rowery-mtb",
+  "catName": "Rowery MTB",
+  "bike": true
+ },
+ "northtec-warlock-m410-dr": {
+  "name": "Northtec Warlock M410 DR",
+  "price": 8999,
+  "img": "assets/img/products/northtec-warlock-m410-dr.jpg",
+  "url": "produkt/northtec-warlock-m410-dr.html",
+  "cat": "rowery-mtb",
+  "catName": "Rowery MTB",
+  "bike": true
+ },
+ "maxbike-freya-3-0": {
+  "name": "Maxbike Freya 3.0",
+  "price": null,
+  "img": "assets/img/products/maxbike-freya-3-0.jpg",
+  "url": "produkt/maxbike-freya-3-0.html",
+  "cat": "rowery-mtb",
+  "catName": "Rowery MTB",
+  "bike": true
+ },
+ "storm-sparq-29": {
+  "name": "Storm Sparq 29",
+  "price": 14500,
+  "img": "assets/img/products/storm-sparq-29.jpg",
+  "url": "produkt/storm-sparq-29.html",
   "cat": "rowery-full",
   "catName": "Rowery Full",
   "bike": true
  },
- "full-trail-275": {
-  "name": "Full Trail 27.5",
-  "price": 12999,
-  "img": "assets/img/products/full-trail-275.jpg",
-  "url": "produkt/full-trail-275.html",
+ "corratec-e-power-rs-160-elite": {
+  "name": "Corratec E-Power RS 160 Elite",
+  "price": 21499,
+  "img": "assets/img/products/corratec-e-power-rs-160-elite.jpg",
+  "url": "produkt/corratec-e-power-rs-160-elite.html",
   "cat": "rowery-full",
   "catName": "Rowery Full",
   "bike": true
  },
- "kids-16-mini": {
-  "name": "Kids 16 Mini",
-  "price": 899,
-  "img": "assets/img/products/kids-16-mini.jpg",
-  "url": "produkt/kids-16-mini.html",
+ "maxbike-halden-pro-2-0": {
+  "name": "Maxbike Halden Pro 2.0",
+  "price": null,
+  "img": "assets/img/products/maxbike-halden-pro-2-0.jpg",
+  "url": "produkt/maxbike-halden-pro-2-0.html",
+  "cat": "rowery-full",
+  "catName": "Rowery Full",
+  "bike": true
+ },
+ "jobobike-romer": {
+  "name": "Jobobike Romer",
+  "price": 5599,
+  "img": "assets/img/products/jobobike-romer.jpg",
+  "url": "produkt/jobobike-romer.html",
+  "cat": "rowery-skladane",
+  "catName": "Rowery składane",
+  "bike": true
+ },
+ "barton-e-fold": {
+  "name": "Barton E-Fold",
+  "price": 5999,
+  "img": "assets/img/products/barton-e-fold.jpg",
+  "url": "produkt/barton-e-fold.html",
+  "cat": "rowery-skladane",
+  "catName": "Rowery składane",
+  "bike": true
+ },
+ "jobobike-romer-pro": {
+  "name": "Jobobike Romer Pro",
+  "price": 6499,
+  "img": "assets/img/products/jobobike-romer-pro.jpg",
+  "url": "produkt/jobobike-romer-pro.html",
+  "cat": "rowery-skladane",
+  "catName": "Rowery składane",
+  "bike": true
+ },
+ "jobobike-vortex": {
+  "name": "Jobobike Vortex",
+  "price": 6799,
+  "img": "assets/img/products/jobobike-vortex.jpg",
+  "url": "produkt/jobobike-vortex.html",
+  "cat": "fatbike",
+  "catName": "Fatbike",
+  "bike": true
+ },
+ "storm-e-taurus-junior-26-1-0": {
+  "name": "Storm E-Taurus Junior 26 1.0",
+  "price": 5499,
+  "img": "assets/img/products/storm-e-taurus-junior-26-1-0.jpg",
+  "url": "produkt/storm-e-taurus-junior-26-1-0.html",
   "cat": "rowery-dzieciece",
   "catName": "Rowery dziecięce",
   "bike": true
  },
- "kids-20-junior": {
-  "name": "Kids 20 Junior",
-  "price": 1199,
-  "img": "assets/img/products/kids-20-junior.jpg",
-  "url": "produkt/kids-20-junior.html",
+ "storm-e-taurus-junior-24-1-0": {
+  "name": "Storm E-Taurus Junior 24 1.0",
+  "price": 5499,
+  "img": "assets/img/products/storm-e-taurus-junior-24-1-0.jpg",
+  "url": "produkt/storm-e-taurus-junior-24-1-0.html",
   "cat": "rowery-dzieciece",
   "catName": "Rowery dziecięce",
   "bike": true
- },
- "kask-mtb-trail": {
-  "name": "Kask MTB Trail",
-  "price": 349,
-  "img": "assets/img/products/kask-mtb-trail.jpg",
-  "url": "produkt/kask-mtb-trail.html",
-  "cat": "akcesoria",
-  "catName": "Akcesoria",
-  "bike": false
- },
- "kask-trail-black": {
-  "name": "Kask Trail Black",
-  "price": 279,
-  "img": "assets/img/products/kask-trail-black.jpg",
-  "url": "produkt/kask-trail-black.html",
-  "cat": "akcesoria",
-  "catName": "Akcesoria",
-  "bike": false
- },
- "okulary-sport": {
-  "name": "Okulary rowerowe Sport",
-  "price": 189,
-  "img": "assets/img/products/okulary-sport.jpg",
-  "url": "produkt/okulary-sport.html",
-  "cat": "akcesoria",
-  "catName": "Akcesoria",
-  "bike": false
  }
 };

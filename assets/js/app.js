@@ -213,18 +213,10 @@
     ];
   }
   var PAYMENTS = [
-    { id: 'blik', name: 'BLIK', note: 'Kod z aplikacji banku' },
-    { id: 'p24', name: 'Szybki przelew', note: 'Przelewy24 — wszystkie banki' },
-    { id: 'karta', name: 'Karta płatnicza', note: 'Visa, Mastercard, Apple Pay, Google Pay' },
-    { id: 'raty', name: 'Raty online', note: 'Decyzja kredytowa w kilka minut' },
-    { id: 'przelew', name: 'Przelew tradycyjny', note: 'Wysyłka po zaksięgowaniu wpłaty' },
+    { id: 'przelew', name: 'Przelew tradycyjny', note: 'Dane do przelewu prześlemy e-mailem' },
     { id: 'gotowka', name: 'Płatność przy odbiorze', note: 'Gotówką lub kartą w sklepie', only: 'odbior' }
   ];
   var PAY_ICONS = {
-    blik: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>',
-    p24: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>',
-    karta: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>',
-    raty: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
     przelew: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M19 21V10M9 21v-7M15 21v-7M2 10l10-7 10 7z"/></svg>',
     gotowka: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/></svg>'
   };
@@ -311,14 +303,13 @@
           '<span class="opt__dot"></span><span class="opt__body"><b>' + o.name + '</b><small>' + o.note + '</small></span>' +
           '<span class="opt__price">' + (o.price ? money(o.price) : 'Gratis') + '</span></label>';
       }).join('');
-      var curPay = selected('pay') || 'blik';
+      var curPay = selected('pay') || 'przelew';
       var pays = PAYMENTS.filter(function (p) { return !p.only || p.only === curShip; });
-      if (!pays.some(function (p) { return p.id === curPay; })) curPay = 'blik';
+      if (!pays.some(function (p) { return p.id === curPay; })) curPay = 'przelew';
       payBox.innerHTML = pays.map(function (p) {
         return '<label class="opt opt--pay"><input type="radio" name="pay" value="' + p.id + '"' + (p.id === curPay ? ' checked' : '') + '>' +
           '<span class="opt__dot"></span><span class="opt__logo">' + PAY_ICONS[p.id] + p.name + '</span><small style="color:var(--muted);font-size:13.5px">' + p.note + '</small></label>';
       }).join('');
-      $('#blik-code').classList.toggle('show', curPay === 'blik');
       renderSummary();
       return true;
     }
@@ -386,10 +377,6 @@
     var o = read(ORDER_KEY, null, 'session');
     if (o) {
       var payInfo = {
-        blik: 'Płatność BLIK została przyjęta.',
-        p24: 'Płatność online została przyjęta.',
-        karta: 'Płatność kartą została przyjęta.',
-        raty: 'Wniosek ratalny został przekazany — partner skontaktuje się z Tobą.',
         przelew: 'Dane do przelewu wysłaliśmy na adres e-mail. W tytule wpisz numer zamówienia.',
         gotowka: 'Zapłacisz przy odbiorze w sklepie.'
       }[o.payId] || '';
