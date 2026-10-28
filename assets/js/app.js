@@ -415,6 +415,33 @@
     });
   });
 
+  /* ---------- lightbox (accessories gallery) ---------- */
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest('[data-lightbox]');
+    if (!t) return;
+    e.preventDefault();
+    var box = document.createElement('div');
+    box.className = 'lightbox';
+    box.setAttribute('role', 'dialog');
+    box.setAttribute('aria-modal', 'true');
+    box.innerHTML = '<button class="lightbox__close" type="button" aria-label="Zamknij">✕</button>' +
+      '<figure><img src="' + t.getAttribute('data-lightbox') + '" alt=""><figcaption>' + esc(t.getAttribute('data-caption') || '') + '</figcaption></figure>';
+    document.body.appendChild(box);
+    document.body.style.overflow = 'hidden';
+    setTimeout(function () { box.classList.add('show'); }, 10);
+    function close() {
+      box.classList.remove('show');
+      document.body.style.overflow = '';
+      setTimeout(function () { box.remove(); }, 300);
+      document.removeEventListener('keydown', onKey);
+      t.focus();
+    }
+    function onKey(ev) { if (ev.key === 'Escape') close(); }
+    box.addEventListener('click', close);
+    document.addEventListener('keydown', onKey);
+    box.querySelector('.lightbox__close').focus();
+  });
+
   /* ---------- cookies ---------- */
   var cookies = $('.cookies');
   if (cookies && !read('ekomasz_cookies', null)) {

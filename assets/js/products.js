@@ -17,6 +17,15 @@ window.PRODUCTS = {
   "catName": "Rowery miejskie",
   "bike": true
  },
+ "maxbike-strada": {
+  "name": "Maxbike Strada",
+  "price": 5500,
+  "img": "assets/img/products/maxbike-strada.jpg",
+  "url": "produkt/maxbike-strada.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
  "storm-e-diamond-pro-28-2-0-ms": {
   "name": "Storm E-Diamond Pro 28 2.0 MS",
   "price": 5999,
@@ -35,11 +44,29 @@ window.PRODUCTS = {
   "catName": "Rowery miejskie",
   "bike": true
  },
+ "maxbike-civita-28": {
+  "name": "Maxbike Civita 28",
+  "price": 6100,
+  "img": "assets/img/products/maxbike-civita-28.jpg",
+  "url": "produkt/maxbike-civita-28.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
  "northtec-suncity-h400": {
   "name": "Northtec Suncity H400",
   "price": 6799,
   "img": "assets/img/products/northtec-suncity-h400.jpg",
   "url": "produkt/northtec-suncity-h400.html",
+  "cat": "rowery-miejskie",
+  "catName": "Rowery miejskie",
+  "bike": true
+ },
+ "maxbike-urbea-28": {
+  "name": "Maxbike Urbea 28",
+  "price": 6999,
+  "img": "assets/img/products/maxbike-urbea-28.jpg",
+  "url": "produkt/maxbike-urbea-28.html",
   "cat": "rowery-miejskie",
   "catName": "Rowery miejskie",
   "bike": true
@@ -58,33 +85,6 @@ window.PRODUCTS = {
   "price": 7599,
   "img": "assets/img/products/storm-e-diamond-pro-28-3-0-ms.jpg",
   "url": "produkt/storm-e-diamond-pro-28-3-0-ms.html",
-  "cat": "rowery-miejskie",
-  "catName": "Rowery miejskie",
-  "bike": true
- },
- "maxbike-civita-28": {
-  "name": "Maxbike Civita 28",
-  "price": null,
-  "img": "assets/img/products/maxbike-civita-28.jpg",
-  "url": "produkt/maxbike-civita-28.html",
-  "cat": "rowery-miejskie",
-  "catName": "Rowery miejskie",
-  "bike": true
- },
- "maxbike-strada": {
-  "name": "Maxbike Strada",
-  "price": null,
-  "img": "assets/img/products/maxbike-strada.jpg",
-  "url": "produkt/maxbike-strada.html",
-  "cat": "rowery-miejskie",
-  "catName": "Rowery miejskie",
-  "bike": true
- },
- "maxbike-urbea-28": {
-  "name": "Maxbike Urbea 28",
-  "price": null,
-  "img": "assets/img/products/maxbike-urbea-28.jpg",
-  "url": "produkt/maxbike-urbea-28.html",
   "cat": "rowery-miejskie",
   "catName": "Rowery miejskie",
   "bike": true
@@ -118,7 +118,7 @@ window.PRODUCTS = {
  },
  "storm-e-diamond-pro-28-8-0-ms": {
   "name": "Storm E-Diamond Pro 28 8.0 MS",
-  "price": 12000,
+  "price": 13999,
   "img": "assets/img/products/storm-e-diamond-pro-28-8-0-ms.jpg",
   "url": "produkt/storm-e-diamond-pro-28-8-0-ms.html",
   "cat": "rowery-suv",
@@ -127,7 +127,7 @@ window.PRODUCTS = {
  },
  "maxbike-saga": {
   "name": "Maxbike Saga",
-  "price": null,
+  "price": 14399,
   "img": "assets/img/products/maxbike-saga.jpg",
   "url": "produkt/maxbike-saga.html",
   "cat": "rowery-suv",
@@ -161,6 +161,15 @@ window.PRODUCTS = {
   "catName": "Rowery MTB",
   "bike": true
  },
+ "maxbike-freya-3-0": {
+  "name": "Maxbike Freya 3.0",
+  "price": 8999,
+  "img": "assets/img/products/maxbike-freya-3-0.jpg",
+  "url": "produkt/maxbike-freya-3-0.html",
+  "cat": "rowery-mtb",
+  "catName": "Rowery MTB",
+  "bike": true
+ },
  "northtec-warlock-m410-dr": {
   "name": "Northtec Warlock M410 DR",
   "price": 8999,
@@ -170,13 +179,13 @@ window.PRODUCTS = {
   "catName": "Rowery MTB",
   "bike": true
  },
- "maxbike-freya-3-0": {
-  "name": "Maxbike Freya 3.0",
-  "price": null,
-  "img": "assets/img/products/maxbike-freya-3-0.jpg",
-  "url": "produkt/maxbike-freya-3-0.html",
-  "cat": "rowery-mtb",
-  "catName": "Rowery MTB",
+ "maxbike-halden-pro-2-0": {
+  "name": "Maxbike Halden Pro 2.0",
+  "price": 14300,
+  "img": "assets/img/products/maxbike-halden-pro-2-0.jpg",
+  "url": "produkt/maxbike-halden-pro-2-0.html",
+  "cat": "rowery-full",
+  "catName": "Rowery Full",
   "bike": true
  },
  "storm-sparq-29": {
@@ -193,15 +202,6 @@ window.PRODUCTS = {
   "price": 21499,
   "img": "assets/img/products/corratec-e-power-rs-160-elite.jpg",
   "url": "produkt/corratec-e-power-rs-160-elite.html",
-  "cat": "rowery-full",
-  "catName": "Rowery Full",
-  "bike": true
- },
- "maxbike-halden-pro-2-0": {
-  "name": "Maxbike Halden Pro 2.0",
-  "price": null,
-  "img": "assets/img/products/maxbike-halden-pro-2-0.jpg",
-  "url": "produkt/maxbike-halden-pro-2-0.html",
   "cat": "rowery-full",
   "catName": "Rowery Full",
   "bike": true
