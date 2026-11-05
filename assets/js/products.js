@@ -259,5 +259,23 @@ window.PRODUCTS = {
   "cat": "rowery-dzieciece",
   "catName": "Rowery dziecięce",
   "bike": true
+ },
+ "storm-rowerek-biegowy-niebieski": {
+  "name": "Storm rowerek biegowy — niebieski",
+  "price": null,
+  "img": "assets/img/products/storm-rowerek-biegowy-niebieski.jpg",
+  "url": "produkt/storm-rowerek-biegowy-niebieski.html",
+  "cat": "rowerki-biegowe",
+  "catName": "Rowerki biegowe dla dzieci",
+  "bike": true
+ },
+ "storm-rowerek-biegowy-rozowy": {
+  "name": "Storm rowerek biegowy — różowy",
+  "price": null,
+  "img": "assets/img/products/storm-rowerek-biegowy-rozowy.jpg",
+  "url": "produkt/storm-rowerek-biegowy-rozowy.html",
+  "cat": "rowerki-biegowe",
+  "catName": "Rowerki biegowe dla dzieci",
+  "bike": true
  }
 };
