@@ -260,6 +260,24 @@ window.PRODUCTS = {
   "catName": "Rowery dziecięce",
   "bike": true
  },
+ "storm-rowerek-biegowy-rozowy": {
+  "name": "Storm rowerek biegowy — różowy",
+  "price": null,
+  "img": "assets/img/products/storm-rowerek-biegowy-rozowy.jpg",
+  "url": "produkt/storm-rowerek-biegowy-rozowy.html",
+  "cat": "rowerki-biegowe",
+  "catName": "Rowerki biegowe dla dzieci",
+  "bike": true
+ },
+ "qubo-rowerek-biegowy-mietowy": {
+  "name": "Qubo rowerek biegowy — miętowy",
+  "price": null,
+  "img": "assets/img/products/qubo-rowerek-biegowy-mietowy.jpg",
+  "url": "produkt/qubo-rowerek-biegowy-mietowy.html",
+  "cat": "rowerki-biegowe",
+  "catName": "Rowerki biegowe dla dzieci",
+  "bike": true
+ },
  "storm-rowerek-biegowy-niebieski": {
   "name": "Storm rowerek biegowy — niebieski",
   "price": null,
@@ -269,11 +287,11 @@ window.PRODUCTS = {
   "catName": "Rowerki biegowe dla dzieci",
   "bike": true
  },
- "storm-rowerek-biegowy-rozowy": {
-  "name": "Storm rowerek biegowy — różowy",
+ "qubo-rowerek-biegowy-fioletowy": {
+  "name": "Qubo rowerek biegowy — fioletowy",
   "price": null,
-  "img": "assets/img/products/storm-rowerek-biegowy-rozowy.jpg",
-  "url": "produkt/storm-rowerek-biegowy-rozowy.html",
+  "img": "assets/img/products/qubo-rowerek-biegowy-fioletowy.jpg",
+  "url": "produkt/qubo-rowerek-biegowy-fioletowy.html",
   "cat": "rowerki-biegowe",
   "catName": "Rowerki biegowe dla dzieci",
   "bike": true

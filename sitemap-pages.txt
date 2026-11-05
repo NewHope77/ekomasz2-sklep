@@ -43,8 +43,10 @@ produkt/jobobike-romer-pro.html
 produkt/jobobike-vortex.html
 produkt/storm-e-taurus-junior-26-1-0.html
 produkt/storm-e-taurus-junior-24-1-0.html
-produkt/storm-rowerek-biegowy-niebieski.html
 produkt/storm-rowerek-biegowy-rozowy.html
+produkt/qubo-rowerek-biegowy-mietowy.html
+produkt/storm-rowerek-biegowy-niebieski.html
+produkt/qubo-rowerek-biegowy-fioletowy.html
 akcesoria.html
 akcesoria/bagazniki.html
 akcesoria/chemia-rowerowa.html
