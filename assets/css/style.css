@@ -494,6 +494,17 @@ p { text-wrap: pretty; }
 .price-row b { color: var(--heading); }
 .price-row small { display: block; color: var(--muted); font-size: 14px; }
 .price-row span { font-weight: 800; color: var(--heading); white-space: nowrap; }
+@media (min-width: 900px) { .form-card--sticky { position: sticky; top: 96px; align-self: start; } }
+.price-row--long { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 16px; align-items: start; }
+.price-row--long > div { display: contents; }
+.price-row--long b { grid-column: 1; grid-row: 1; }
+.price-row--long > span { grid-column: 2; grid-row: 1; }
+.price-row--long small, .price-row--long .price-incl { grid-column: 1 / -1; }
+.price-row small { margin-top: 6px; line-height: 1.5; }
+.price-incl { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 18px; }
+.price-incl li { position: relative; padding-left: 16px; font-size: 14px; color: var(--muted); line-height: 1.45; }
+.price-incl li::before { content: ""; position: absolute; left: 0; top: .6em; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+@media (max-width: 640px) { .price-incl { grid-template-columns: 1fr; } .price-row { padding: 16px 18px; } }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
 
 /* Contact */
